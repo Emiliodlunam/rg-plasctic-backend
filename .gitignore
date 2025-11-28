@@ -1,0 +1,20 @@
+# Dependencias (Pesado, nunca se sube)
+node_modules/
+
+# Variables de entorno y secretos (Seguridad crítica)
+.env
+
+# Logs y debugs de NPM (Archivos de error que no necesitas)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Archivos del sistema operativo (Basura que generan Mac y Windows)
+.DS_Store
+Thumbs.db
+
+# Configuración de editores (Opcional, si no quieres subir tu config personal de VS Code)
+.vscode/
+.idea/
